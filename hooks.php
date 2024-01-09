@@ -110,7 +110,7 @@ function instawp_get_waas_list( $api_key ) {
         "CURLOPT_RETURNTRANSFER" => 1
     ];
 
-    $response      = curlCall( 'https://stage.instawp.io/api/v2/waas', false, $options );
+    $response      = curlCall( 'https://app.instawp.io/api/v2/waas', false, $options );
     $response_data = json_decode( $response, true );
 
     logModuleCall( "instawp_waas_whmcs", "Fetch WaaS List", [], $response, $response_data );
