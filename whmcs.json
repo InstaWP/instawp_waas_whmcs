@@ -1,0 +1,31 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-addons",
+    "name": "instawp_waas_whmcs",
+    "version": "1.0",
+    "license": "MIT",
+    "category": "utilities",
+    "description": {
+      "name": "InstaWP WaaS Integration",
+      "tagline": "Integrate InstaWP WaaS into your WHMCS",
+      "long": "This module provides a quick and easy way to integrate InstaWP WaaS into your WHMCS installation",
+      "features": [
+        "IntaWP",
+        "WaaS"
+      ]
+    },
+    "support": {
+      "support_url": "https:\/\/instawp.com\/support"
+    },
+    "authors": [
+      {
+        "name": "InstaWP",
+        "homepage": "https:\/\/instawp.com\/"
+      },
+      {
+        "name": "Sayan Datta",
+        "homepage": "https:\/\/sayandatta.co.in\/"
+      }
+    ]
+  }
+  
